@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Comic;
+use Ramsey\Uuid\Type\Decimal;
 
 class ComicSeeder extends Seeder
 {

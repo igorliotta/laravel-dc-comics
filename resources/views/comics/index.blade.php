@@ -27,7 +27,7 @@
                   <a href={{ route('comics.show', $comic) }}>{{ $comic->title }}</a></td>
                 <td>{{ $comic->description }}</td>
                 <td ><img class="img-fluid" src={{ $comic->thumb }} alt=""></td>
-                <td>{{ $comic->price }}</td>
+                <td>$ {{ $comic->price }}</td>
                 <td>{{ $comic->series }}</td>
                 <td>{{ $comic->sale_date }}</td>
                 <td>{{ $comic->type }}</td>
@@ -38,5 +38,10 @@
     </div>
 </section>
 
+@endsection
+
+@section('title')
+Laravel-dc-comics
+  
 @endsection
 
