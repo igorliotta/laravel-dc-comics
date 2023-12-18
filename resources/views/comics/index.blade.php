@@ -22,7 +22,8 @@
              @foreach ($comics as $comic)
              <tr>
                 <th scope="row">{{ $comic->id }}</th>
-                <td>{{ $comic->title }}</td>
+                <td>
+                  <a href={{ route('comics.show', $comic) }}>{{ $comic->title }}</a></td>
                 <td>{{ $comic->description }}</td>
                 <td ><img class="img-fluid" src={{ $comic->thumb }} alt=""></td>
                 <td>{{ $comic->price }}</td>
