@@ -16,6 +16,7 @@
                 <th scope="col">SERIES</th>
                 <th scope="col">SALE_DATE</th>
                 <th scope="col">TYPE</th>
+                <th><a href="{{ route('comics.create') }}" class="btn btn-primary">Nuovo fumetto</a></th>
               </tr>
             </thead>
             <tbody>
