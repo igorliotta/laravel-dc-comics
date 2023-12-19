@@ -5,6 +5,7 @@
 <section>
     <div class="container">
         <h1 class="text-center p-5">Comics</h1>
+        <a class="d-flex justify-content-end p-4" href="{{ route('comics.create') }}" class="btn btn-primary">Nuovo fumetto</a>
         <table class="table">
             <thead>
               <tr>
@@ -16,7 +17,6 @@
                 <th scope="col">SERIES</th>
                 <th scope="col">SALE_DATE</th>
                 <th scope="col">TYPE</th>
-                <th><a href="{{ route('comics.create') }}" class="btn btn-primary">Nuovo fumetto</a></th>
               </tr>
             </thead>
             <tbody>
